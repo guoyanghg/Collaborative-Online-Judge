@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93c821ca-3732-41da-aee0-0aa45d0b9753" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/og-client/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/src/app/mock-problems.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/og-client/tslint.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/og-client" />
+  </component>
+  <component name="ProjectId" id="1VdxEckImLvOFo0d1sofcjfGf1L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/og-client/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/og-client/src/app/services" />
+      <recent name="$PROJECT_DIR$/og-client/src/app/components" />
+      <recent name="$PROJECT_DIR$/og-client/src/app" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93c821ca-3732-41da-aee0-0aa45d0b9753" name="Default Changelist" comment="" />
+      <created>1577596662476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577596662476</updated>
+      <workItem from="1577596667455" duration="824000" />
+      <workItem from="1577597649408" duration="2020000" />
+      <workItem from="1577599702747" duration="44115000" />
+      <workItem from="1577913478219" duration="5871000" />
+      <workItem from="1577931538088" duration="21392000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/ng2/index.js.map" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/ng2/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/ng2/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/enum/index.js.map" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/enum/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/enum/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/pipe/index.js.map" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/pipe/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/pipe/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/class/index.js.map" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/class/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/class/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/module/index.js.map" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/module/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/module/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/service/index.js.map" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/service/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/service/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/component/index.js.map" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/component/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/component/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/directive/index.js.map" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/directive/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/directive/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/interface/index.js.map" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/interface/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/angular-cli/blueprints/interface/index.d.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="557" y="180" width="800" height="677" key="#TSLint" timestamp="1578036153076">
+      <screen x="67" y="27" width="1790" height="985" />
+    </state>
+    <state x="557" y="180" width="800" height="677" key="#TSLint/67.27.1790.985@67.27.1790.985" timestamp="1578036153076" />
+    <state x="157" y="30" width="585" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577749174497">
+      <screen x="67" y="27" width="733" height="573" />
+    </state>
+    <state x="157" y="30" width="585" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.733.573@67.27.733.573" timestamp="1577749174497" />
+    <state x="67" y="27" key="SettingsEditor" timestamp="1577930470396">
+      <screen x="67" y="27" width="1790" height="985" />
+    </state>
+    <state x="67" y="27" key="SettingsEditor/67.27.1790.985@67.27.1790.985" timestamp="1577930470396" />
+    <state x="67" y="27" key="SettingsEditor/67.27.733.573@67.27.733.573" timestamp="1577596712023" />
+    <state x="625" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1578029562488">
+      <screen x="67" y="27" width="1790" height="985" />
+    </state>
+    <state x="625" y="240" width="672" height="678" key="search.everywhere.popup/67.27.1790.985@67.27.1790.985" timestamp="1578029562488" />
+  </component>
+</project>
