@@ -5,6 +5,9 @@ A collaborative online judge system
 In the first two weeks, I have implemented CRUD operations of the OJ problems and the collaborative ACE editor. 
 The front-end is built by Angular and Bootstrap. Then back-end is implemented by Node.js and MongoDB.
 
+![index](image1.png)
+![collaborative editor](image2.png)
+
 ## Getting Started
 
 This project is being developed on the Ubantu18.04 system. The following instruction will tell you how to prepare Angular and Node.js environment.
