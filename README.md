@@ -2,11 +2,13 @@
 
 A collaborative online judge system 
 
-Implemented CRUD operations of the OJ problems and the collaborative ACE editor by WebSocket. 
+-	Implemented CRUD operations of the OJ problems and collaborative ACE editor, and remote code execution module.
 
-The front-end is built by Angular and Bootstrap. Then back-end is implemented by Node.js and MongoDB.
+-	Implemented the front-end with Angular, Bootstrap, and implemented back-end using Node.js and MongoDB,
+  built collaborative editor module with WebSocket
 
-Built backend executor server with Flask and run the codes in the Docker virtual environment
+-	Built backend executor server with Flask and code runtime environment with Docker
+
 
 ![index](picture3.png)
 ![collaborative editor](picture1.png)
