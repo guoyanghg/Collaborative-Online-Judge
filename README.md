@@ -6,9 +6,9 @@ Implemented CRUD operations of the OJ problems and the collaborative ACE editor 
 The front-end is built by Angular and Bootstrap. Then back-end is implemented by Node.js and MongoDB.
 Built backend executor server with Flask and run the codes in the Docker virtual environment
 
-![index](picture1.png)
-![collaborative editor](picture2.png)
-![execution result](picture3.png)
+![index](picture3.png)
+![collaborative editor](picture1.png)
+![execution result](picture2.png)
 
 ## Getting Started
 
