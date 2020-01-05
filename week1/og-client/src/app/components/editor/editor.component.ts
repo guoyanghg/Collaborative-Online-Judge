@@ -13,13 +13,15 @@ export class EditorComponent implements OnInit {
   language = 'Java';
   languages: string[] = ['Java', 'C', 'Python'];
   sessionId: string;
+  output: string;
   defaultContent = {
     Java: '//this is Java editor',
     C: '//this is C++ editor',
     Python: 'this is Python editor'
   };
-  constructor(@Inject('collaboration') private collaborationService
-             , private route: ActivatedRoute) { }
+  constructor(@Inject('collaboration') private collaborationService,
+             @Inject('data') private dataService,
+             private route: ActivatedRoute) { }
 
   ngOnInit() {
     this.route.params
@@ -55,11 +57,19 @@ export class EditorComponent implements OnInit {
   resetEditor(): void {
     this.editor.session.setMode('ace/mode/' + this.language.toLowerCase());
     this.editor.setValue(this.defaultContent[this.language]);
+    this.output = '';
   }
 
   submit(): void {
-    const usercode = this.editor.getValue();
-    console.log(usercode);
+    const userCode = this.editor.getValue();
+    console.log(userCode);
+    const data = {
+      user_code: userCode,
+      lang: this.language.toLowerCase()
+    };
+    this.dataService.buildAndRun(data)
+      .then((res) => {this.output = res.text; });
+
   }
 
 }

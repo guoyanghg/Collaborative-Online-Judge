@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<section>\n  <header class=\"editor-header\">\n\n    <select class=\"form-control\" name=\"language\" [(ngModel)]=\"language\" (change)=\"setLanguage(language)\">\n      <option *ngFor=\"let language of languages\" [value]=\"language\">\n        {{language}}\n      </option>\n    </select>\n\n\n    <!-- Button trigger modal -->\n    <button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" data-target=\"#exampleModal\">\n      Launch demo modal\n    </button>\n\n    <!-- Modal -->\n    <div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">\n      <div class=\"modal-dialog\" role=\"document\">\n        <div class=\"modal-content\">\n          <div class=\"modal-header\">\n            <h5 class=\"modal-title\" id=\"exampleModalLabel\">Modal title</h5>\n            <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n              <span aria-hidden=\"true\">&times;</span>\n            </button>\n          </div>\n          <div class=\"modal-body\">\n            ...\n          </div>\n          <div class=\"modal-footer\">\n            <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\n            <button type=\"button\" class=\"btn btn-primary\">Save changes</button>\n          </div>\n        </div>\n      </div>\n    </div>\n\n  </header>\n\n\n\n\n<div id=\"editor\">\n    Input some code!\n</div>\n</section>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<section>\n  <header class=\"editor-header\">\n\n    <select class=\"form-control\" name=\"language\" [(ngModel)]=\"language\" (change)=\"setLanguage(language)\">\n      <option *ngFor=\"let language of languages\" [value]=\"language\">\n        {{language}}\n      </option>\n    </select>\n\n\n    <!-- Button trigger modal -->\n    <button type=\"button\" class=\"btn btn-primary float-right\" data-toggle=\"modal\" data-target=\"#exampleModal\">\n      Reset\n    </button>\n\n    <!-- Modal -->\n    <div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">\n      <div class=\"modal-dialog\" role=\"document\">\n        <div class=\"modal-content\">\n          <div class=\"modal-header\">\n            <h5 class=\"modal-title\" id=\"exampleModalLabel\">Reset</h5>\n            <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n              <span aria-hidden=\"true\">&times;</span>\n            </button>\n          </div>\n          <div class=\"modal-body\">\n            Your will reset your editor, are you sure?\n          </div>\n          <div class=\"modal-footer\">\n            <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Cancel</button>\n            <button type=\"button\" class=\"btn btn-primary\" data-dismiss=\"modal\" (click)=\"resetEditor()\">OK</button>\n          </div>\n        </div>\n      </div>\n    </div>\n\n  </header>\n\n  <div id=\"editor\">\n    Input some code!\n  </div>\n\n  <div>{{output}}</div>\n\n  <footer class=\"editor-footer\">\n    <button type=\"button\" class=\"btn btn-success float-right\" (click)=\"submit()\">Submit Solution</button>\n  </footer>\n\n</section>\n");
 
 /***/ }),
 
@@ -511,7 +511,7 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("@media screen {\n  #editor {\n    height: 600px;\n  }\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9lZGl0b3IvZWRpdG9yLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtJQUNFLGFBQWE7RUFDZjtBQUNGIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9lZGl0b3IvZWRpdG9yLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAbWVkaWEgc2NyZWVuIHtcbiAgI2VkaXRvciB7XG4gICAgaGVpZ2h0OiA2MDBweDtcbiAgfVxufVxuIl19 */");
+/* harmony default export */ __webpack_exports__["default"] = ("@media screen {\n  #editor {\n    height: 600px;\n  }\n  select{\n    width: 100px;\n    margin-right: 10px;\n  }\n\n  header .btn{\n    margin: 0 5px;\n  }\n\n  footer .btn{\n    margin: 0 5px;\n  }\n\n  .editor-footer, .editor-header{\n    margin: 10px 0;\n  }\n\n  .cursor{\n    background: rgba(0, 250, 0, 0.5);\n    z-index: 40;\n    width: 2px!important;\n  }\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9lZGl0b3IvZWRpdG9yLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtJQUNFLGFBQWE7RUFDZjtFQUNBO0lBQ0UsWUFBWTtJQUNaLGtCQUFrQjtFQUNwQjs7RUFFQTtJQUNFLGFBQWE7RUFDZjs7RUFFQTtJQUNFLGFBQWE7RUFDZjs7RUFFQTtJQUNFLGNBQWM7RUFDaEI7O0VBRUE7SUFDRSxnQ0FBZ0M7SUFDaEMsV0FBVztJQUNYLG9CQUFvQjtFQUN0QjtBQUNGIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9lZGl0b3IvZWRpdG9yLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAbWVkaWEgc2NyZWVuIHtcbiAgI2VkaXRvciB7XG4gICAgaGVpZ2h0OiA2MDBweDtcbiAgfVxuICBzZWxlY3R7XG4gICAgd2lkdGg6IDEwMHB4O1xuICAgIG1hcmdpbi1yaWdodDogMTBweDtcbiAgfVxuXG4gIGhlYWRlciAuYnRue1xuICAgIG1hcmdpbjogMCA1cHg7XG4gIH1cblxuICBmb290ZXIgLmJ0bntcbiAgICBtYXJnaW46IDAgNXB4O1xuICB9XG5cbiAgLmVkaXRvci1mb290ZXIsIC5lZGl0b3ItaGVhZGVye1xuICAgIG1hcmdpbjogMTBweCAwO1xuICB9XG5cbiAgLmN1cnNvcntcbiAgICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDI1MCwgMCwgMC41KTtcbiAgICB6LWluZGV4OiA0MDtcbiAgICB3aWR0aDogMnB4IWltcG9ydGFudDtcbiAgfVxufVxuIl19 */");
 
 /***/ }),
 
@@ -532,8 +532,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 let EditorComponent = class EditorComponent {
-    constructor(collaborationService, route) {
+    constructor(collaborationService, dataService, route) {
         this.collaborationService = collaborationService;
+        this.dataService = dataService;
         this.route = route;
         this.language = 'Java';
         this.languages = ['Java', 'C', 'Python'];
@@ -572,14 +573,22 @@ let EditorComponent = class EditorComponent {
     resetEditor() {
         this.editor.session.setMode('ace/mode/' + this.language.toLowerCase());
         this.editor.setValue(this.defaultContent[this.language]);
+        this.output = '';
     }
     submit() {
-        const usercode = this.editor.getValue();
-        console.log(usercode);
+        const userCode = this.editor.getValue();
+        console.log(userCode);
+        const data = {
+            user_code: userCode,
+            lang: this.language.toLowerCase()
+        };
+        this.dataService.buildAndRun(data)
+            .then((res) => { this.output = res.text; });
     }
 };
 EditorComponent.ctorParameters = () => [
     { type: undefined, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"], args: ['collaboration',] }] },
+    { type: undefined, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"], args: ['data',] }] },
     { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"] }
 ];
 EditorComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
@@ -588,7 +597,8 @@ EditorComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./editor.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/editor/editor.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./editor.component.css */ "./src/app/components/editor/editor.component.css")).default]
     }),
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])('collaboration'))
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])('collaboration')),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](1, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])('data'))
 ], EditorComponent);
 
 
@@ -1073,6 +1083,12 @@ let DataService = class DataService {
     addProblem(problem) {
         const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpHeaders"]({ 'content-type': 'application/json' });
         return this.httpClient.post('api/v1/problems', problem, { headers })
+            .toPromise()
+            .catch(this.handleError);
+    }
+    buildAndRun(data) {
+        const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpHeaders"]({ 'content-type': 'application/json' });
+        return this.httpClient.post('api/v1/build_and_run', data, { headers })
             .toPromise()
             .catch(this.handleError);
     }

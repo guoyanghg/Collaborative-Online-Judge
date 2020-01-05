@@ -79,7 +79,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<section>\n  <header class=\"editor-header\">\n\n    <select class=\"form-control\" name=\"language\" [(ngModel)]=\"language\" (change)=\"setLanguage(language)\">\n      <option *ngFor=\"let language of languages\" [value]=\"language\">\n        {{language}}\n      </option>\n    </select>\n\n\n    <!-- Button trigger modal -->\n    <button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" data-target=\"#exampleModal\">\n      Launch demo modal\n    </button>\n\n    <!-- Modal -->\n    <div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">\n      <div class=\"modal-dialog\" role=\"document\">\n        <div class=\"modal-content\">\n          <div class=\"modal-header\">\n            <h5 class=\"modal-title\" id=\"exampleModalLabel\">Modal title</h5>\n            <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n              <span aria-hidden=\"true\">&times;</span>\n            </button>\n          </div>\n          <div class=\"modal-body\">\n            ...\n          </div>\n          <div class=\"modal-footer\">\n            <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\n            <button type=\"button\" class=\"btn btn-primary\">Save changes</button>\n          </div>\n        </div>\n      </div>\n    </div>\n\n  </header>\n\n\n\n\n<div id=\"editor\">\n    Input some code!\n</div>\n</section>\n";
+    __webpack_exports__["default"] = "<section>\n  <header class=\"editor-header\">\n\n    <select class=\"form-control\" name=\"language\" [(ngModel)]=\"language\" (change)=\"setLanguage(language)\">\n      <option *ngFor=\"let language of languages\" [value]=\"language\">\n        {{language}}\n      </option>\n    </select>\n\n\n    <!-- Button trigger modal -->\n    <button type=\"button\" class=\"btn btn-primary float-right\" data-toggle=\"modal\" data-target=\"#exampleModal\">\n      Reset\n    </button>\n\n    <!-- Modal -->\n    <div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">\n      <div class=\"modal-dialog\" role=\"document\">\n        <div class=\"modal-content\">\n          <div class=\"modal-header\">\n            <h5 class=\"modal-title\" id=\"exampleModalLabel\">Reset</h5>\n            <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n              <span aria-hidden=\"true\">&times;</span>\n            </button>\n          </div>\n          <div class=\"modal-body\">\n            Your will reset your editor, are you sure?\n          </div>\n          <div class=\"modal-footer\">\n            <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Cancel</button>\n            <button type=\"button\" class=\"btn btn-primary\" data-dismiss=\"modal\" (click)=\"resetEditor()\">OK</button>\n          </div>\n        </div>\n      </div>\n    </div>\n\n  </header>\n\n  <div id=\"editor\">\n    Input some code!\n  </div>\n\n  <div>{{output}}</div>\n\n  <footer class=\"editor-footer\">\n    <button type=\"button\" class=\"btn btn-success float-right\" (click)=\"submit()\">Submit Solution</button>\n  </footer>\n\n</section>\n";
     /***/
   },
 
@@ -1015,7 +1015,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "@media screen {\n  #editor {\n    height: 600px;\n  }\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9lZGl0b3IvZWRpdG9yLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtJQUNFLGFBQWE7RUFDZjtBQUNGIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9lZGl0b3IvZWRpdG9yLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAbWVkaWEgc2NyZWVuIHtcbiAgI2VkaXRvciB7XG4gICAgaGVpZ2h0OiA2MDBweDtcbiAgfVxufVxuIl19 */";
+    __webpack_exports__["default"] = "@media screen {\n  #editor {\n    height: 600px;\n  }\n  select{\n    width: 100px;\n    margin-right: 10px;\n  }\n\n  header .btn{\n    margin: 0 5px;\n  }\n\n  footer .btn{\n    margin: 0 5px;\n  }\n\n  .editor-footer, .editor-header{\n    margin: 10px 0;\n  }\n\n  .cursor{\n    background: rgba(0, 250, 0, 0.5);\n    z-index: 40;\n    width: 2px!important;\n  }\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9lZGl0b3IvZWRpdG9yLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtJQUNFLGFBQWE7RUFDZjtFQUNBO0lBQ0UsWUFBWTtJQUNaLGtCQUFrQjtFQUNwQjs7RUFFQTtJQUNFLGFBQWE7RUFDZjs7RUFFQTtJQUNFLGFBQWE7RUFDZjs7RUFFQTtJQUNFLGNBQWM7RUFDaEI7O0VBRUE7SUFDRSxnQ0FBZ0M7SUFDaEMsV0FBVztJQUNYLG9CQUFvQjtFQUN0QjtBQUNGIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9lZGl0b3IvZWRpdG9yLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAbWVkaWEgc2NyZWVuIHtcbiAgI2VkaXRvciB7XG4gICAgaGVpZ2h0OiA2MDBweDtcbiAgfVxuICBzZWxlY3R7XG4gICAgd2lkdGg6IDEwMHB4O1xuICAgIG1hcmdpbi1yaWdodDogMTBweDtcbiAgfVxuXG4gIGhlYWRlciAuYnRue1xuICAgIG1hcmdpbjogMCA1cHg7XG4gIH1cblxuICBmb290ZXIgLmJ0bntcbiAgICBtYXJnaW46IDAgNXB4O1xuICB9XG5cbiAgLmVkaXRvci1mb290ZXIsIC5lZGl0b3ItaGVhZGVye1xuICAgIG1hcmdpbjogMTBweCAwO1xuICB9XG5cbiAgLmN1cnNvcntcbiAgICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDI1MCwgMCwgMC41KTtcbiAgICB6LWluZGV4OiA0MDtcbiAgICB3aWR0aDogMnB4IWltcG9ydGFudDtcbiAgfVxufVxuIl19 */";
     /***/
   },
 
@@ -1060,10 +1060,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var EditorComponent =
     /*#__PURE__*/
     function () {
-      function EditorComponent(collaborationService, route) {
+      function EditorComponent(collaborationService, dataService, route) {
         _classCallCheck(this, EditorComponent);
 
         this.collaborationService = collaborationService;
+        this.dataService = dataService;
         this.route = route;
         this.language = 'Java';
         this.languages = ['Java', 'C', 'Python'];
@@ -1116,12 +1117,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function resetEditor() {
           this.editor.session.setMode('ace/mode/' + this.language.toLowerCase());
           this.editor.setValue(this.defaultContent[this.language]);
+          this.output = '';
         }
       }, {
         key: "submit",
         value: function submit() {
-          var usercode = this.editor.getValue();
-          console.log(usercode);
+          var _this3 = this;
+
+          var userCode = this.editor.getValue();
+          console.log(userCode);
+          var data = {
+            user_code: userCode,
+            lang: this.language.toLowerCase()
+          };
+          this.dataService.buildAndRun(data).then(function (res) {
+            _this3.output = res.text;
+          });
         }
       }]);
 
@@ -1136,6 +1147,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           args: ['collaboration']
         }]
       }, {
+        type: undefined,
+        decorators: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
+          args: ['data']
+        }]
+      }, {
         type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]
       }];
     };
@@ -1148,7 +1165,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./editor.component.css */
       "./src/app/components/editor/editor.component.css")).default]
-    }), tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])('collaboration'))], EditorComponent);
+    }), tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])('collaboration')), tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](1, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])('data'))], EditorComponent);
     /***/
   },
 
@@ -1446,11 +1463,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(ProblemDetailComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this3 = this;
+          var _this4 = this;
 
           this.route.params.subscribe(function (params) {
-            _this3.dataService.getProblem(+params.id).then(function (problem) {
-              return _this3.problem = problem;
+            _this4.dataService.getProblem(+params.id).then(function (problem) {
+              return _this4.problem = problem;
             });
           });
         }
@@ -1553,10 +1570,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "getProblems",
         value: function getProblems() {
-          var _this4 = this;
+          var _this5 = this;
 
           this.dataService.getProblems().then(function (problems) {
-            return _this4.problems = problems;
+            return _this5.problems = problems;
           });
         }
       }]);
@@ -1697,7 +1714,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*#__PURE__*/
     function () {
       function AuthService(router) {
-        var _this5 = this;
+        var _this6 = this;
 
         _classCallCheck(this, AuthService);
 
@@ -1718,7 +1735,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.isAuthenticated$ = this.auth0Client$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["concatMap"])(function (client) {
           return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["from"])(client.isAuthenticated());
         }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["tap"])(function (res) {
-          return _this5.loggedIn = res;
+          return _this6.loggedIn = res;
         }));
         this.handleRedirectCallback$ = this.auth0Client$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["concatMap"])(function (client) {
           return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["from"])(client.handleRedirectCallback());
@@ -1740,18 +1757,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(AuthService, [{
         key: "getUser$",
         value: function getUser$(options) {
-          var _this6 = this;
+          var _this7 = this;
 
           return this.auth0Client$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["concatMap"])(function (client) {
             return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["from"])(client.getUser(options));
           }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["tap"])(function (user) {
-            return _this6.userProfileSubject$.next(user);
+            return _this7.userProfileSubject$.next(user);
           }));
         }
       }, {
         key: "localAuthSetup",
         value: function localAuthSetup() {
-          var _this7 = this;
+          var _this8 = this;
 
           // This should only be called on app initialization
           // Set up local authentication streams
@@ -1759,7 +1776,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             if (loggedIn) {
               // If authenticated, get user and set in app
               // NOTE: you could pass options here if needed
-              return _this7.getUser$();
+              return _this8.getUser$();
             } // If not authenticated, return stream that emits 'false'
 
 
@@ -1787,7 +1804,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "handleAuthCallback",
         value: function handleAuthCallback() {
-          var _this8 = this;
+          var _this9 = this;
 
           // Call when app reloads after user logs in with Auth0
           var params = window.location.search;
@@ -1801,7 +1818,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               targetRoute = cbRes.appState && cbRes.appState.target ? cbRes.appState.target : '/';
             }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["concatMap"])(function () {
               // Redirect callback complete; get user and login status
-              return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["combineLatest"])([_this8.getUser$(), _this8.isAuthenticated$]);
+              return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["combineLatest"])([_this9.getUser$(), _this9.isAuthenticated$]);
             })); // Subscribe to authentication completion observable
             // Response will be an array of user and login status
 
@@ -1811,7 +1828,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                   loggedIn = _ref2[1];
 
               // Redirect to target route after callback processing
-              _this8.router.navigate([targetRoute]);
+              _this9.router.navigate([targetRoute]);
             });
           }
         }
@@ -1989,6 +2006,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             'content-type': 'application/json'
           });
           return this.httpClient.post('api/v1/problems', problem, {
+            headers: headers
+          }).toPromise().catch(this.handleError);
+        }
+      }, {
+        key: "buildAndRun",
+        value: function buildAndRun(data) {
+          var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpHeaders"]({
+            'content-type': 'application/json'
+          });
+          return this.httpClient.post('api/v1/build_and_run', data, {
             headers: headers
           }).toPromise().catch(this.handleError);
         }
