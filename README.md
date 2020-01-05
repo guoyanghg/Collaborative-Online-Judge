@@ -6,8 +6,9 @@ Implemented CRUD operations of the OJ problems and the collaborative ACE editor 
 The front-end is built by Angular and Bootstrap. Then back-end is implemented by Node.js and MongoDB.
 Built backend executor server with Flask and run the codes in the Docker virtual environment
 
-![index](image1.png)
-![collaborative editor](image2.png)
+![index](picture1.png)
+![collaborative editor](picture2.png)
+![execution result](picture3.png)
 
 ## Getting Started
 
@@ -41,7 +42,16 @@ sudo apt install docker.io
 ```
 
 
+Install MongoDB https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
+
 ### Installing
+
+start MongoDB service (assuming that you have followed above instructions)
+
+```
+sudo service mongod start
+```
 
 Clone this repo 
 
