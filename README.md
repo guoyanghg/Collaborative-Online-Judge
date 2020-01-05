@@ -2,15 +2,16 @@
 
 A collaborative online judge system 
 
-In the first two weeks, I have implemented CRUD operations of the OJ problems and the collaborative ACE editor. 
+Implemented CRUD operations of the OJ problems and the collaborative ACE editor by WebSocket. 
 The front-end is built by Angular and Bootstrap. Then back-end is implemented by Node.js and MongoDB.
+Built backend executor server with Flask and run the codes in the Docker virtual environment
 
 ![index](image1.png)
 ![collaborative editor](image2.png)
 
 ## Getting Started
 
-This project is being developed on the Ubantu18.04 system. The following instruction will tell you how to prepare Angular and Node.js environment.
+This project is being developed on the Ubantu18.04 system. 
 
 ### Prerequisites
 
@@ -26,6 +27,17 @@ then you can use npm to install Angular-cli
 
 ```
 npm install -g @angular/cli
+```
+Install pip with default Python 2.7
+
+```
+sudo apt install python-pip
+```
+
+Install Docker https://phoenixnap.com/kb/how-to-install-docker-on-ubuntu-18-04
+
+```
+sudo apt install docker.io
 ```
 
 
@@ -49,6 +61,14 @@ do
 npm install
 ```
 
+cd to the ./week1/executor/
+
+do
+
+```
+pip install -r requirements.txt
+```
+
 
 
 ## Running the tests
@@ -63,6 +83,12 @@ start the server
 ```
 cd  ./week1/oj-server/
 node server.js
+```
+
+start the executor server
+```
+cd  ./week1/executor/
+python executor_server.py
 ```
 
 open the brower: localhost:3000/
